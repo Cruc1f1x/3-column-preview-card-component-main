@@ -1,0 +1,155 @@
+body{
+    background-color: hsl(0, 19%, 91%) ;
+}
+
+
+.container{
+    margin: auto;
+    /* border: red; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* height: 1400px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    position: relative;
+    /* top: 50px; */
+}
+
+#box1{
+    background-color: hsl(31, 77%, 52%);
+    margin: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 466px;
+    
+
+}
+
+
+#box2{
+    background-color: hsl(184, 100%, 22%);
+    margin: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+    height: 466px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+    
+
+}
+
+
+
+#box3{
+    background-color: hsl(179, 100%, 13%);
+    margin: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+    height: 466px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+
+}
+
+/* every heading i.e sedan suv and luxury */
+h4{
+    display: inline;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 41px;
+    position: relative;
+    left: 44px;
+    color:  hsl(0, 0%, 95%);
+}
+
+
+/* text */
+p{
+    display: inline-block;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 171% ;
+    text-align: left;
+    padding: 29px;
+    position: relative;
+    left: 14px;
+    bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* every image */
+img{
+    display: block;
+    padding: 41px;
+}
+
+
+/* for every button */
+button{
+    border-radius: 24px;
+    border: none;
+    font-size: 10px;
+    padding: 13px 32px;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    left: 45px;
+    bottom: 16px;
+
+    
+
+}
+
+/* individual buttons for adding color to the text lol */
+
+
+#btn-1{
+    color: hsl(31, 77%, 52%);
+
+}
+
+
+#btn-1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid white;
+
+}
+
+
+
+#btn-2{
+    color: hsl(184, 100%, 22%) ;
+
+}
+
+#btn-2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid white;
+
+}
+
+
+#btn-3{
+    color: hsl(179, 100%, 13%) ;
+
+}
+
+#btn-3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid white;
+
+}
+
+
+/* adding hover on all buttons */
+
+
